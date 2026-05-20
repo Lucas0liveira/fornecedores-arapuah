@@ -179,10 +179,11 @@ export function SupplierForm({ supplier }: Props) {
             <input
               className="form-input"
               value={form.hero}
-              onChange={set("image")}
+              onChange={set("hero")}
               placeholder="https://exemplo.com/foto.jpg — deixe vazio para gerar automaticamente"
             />
           </div>
+        </div>
 
         <div className="form-actions">
           <button type="submit" className="btn btn-primary" disabled={loading}>
