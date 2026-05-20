@@ -175,15 +175,14 @@ export function SupplierForm({ supplier }: Props) {
           </div>
 
           <div className="form-field full">
-            <label className="form-label">Palavra-chave para foto de capa</label>
+            <label className="form-label">Link da foto do produto (opcional)</label>
             <input
               className="form-input"
               value={form.hero}
-              onChange={set("hero")}
-              placeholder="ex: frutas, hortifruti, açougue"
+              onChange={set("image")}
+              placeholder="https://exemplo.com/foto.jpg — deixe vazio para gerar automaticamente"
             />
           </div>
-        </div>
 
         <div className="form-actions">
           <button type="submit" className="btn btn-primary" disabled={loading}>

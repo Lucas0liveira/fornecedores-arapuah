@@ -176,7 +176,8 @@ export function HomeClient({
               <Link key={s.id} href={`/s/${s.id}`} className="supplier-card">
                 <div
                   className="img"
-                  style={{ backgroundImage: `url(${heroUrl(s)})` }}
+                  // style={{ backgroundImage: `url(${heroUrl(s)})` }}
+                  style={{ backgroundImage: `url(${s.hero})` }}
                 />
                 <div className="body">
                   <span className="badge muted">{s.category}</span>
