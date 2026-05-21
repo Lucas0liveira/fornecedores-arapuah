@@ -28,10 +28,6 @@ export async function generateMetadata(): Promise<Metadata> {
     title: `${title} — Simulador de Pedidos`,
     description:
       "Simulador educacional de pedidos B2B para a disciplina de Logística.",
-    icons: {
-      icon: "/bee.png",
-      apple: "/bee.png",
-    },
   };
 }
 
