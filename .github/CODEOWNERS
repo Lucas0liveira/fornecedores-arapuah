@@ -1,0 +1,7 @@
+# Qualquer alteração exige aprovação do professor
+* @Lucas0liveira
+
+# Arquivos críticos de infraestrutura exigem aprovação especialmente
+supabase/ @Lucas0liveira
+src/lib/supabase/ @Lucas0liveira
+*.env* @Lucas0liveira
