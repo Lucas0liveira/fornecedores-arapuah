@@ -1,6 +1,7 @@
 {
   "name": "loja-logistica",
   "version": "0.1.0",
+  "description": "Arapuá Marketplace — simulador educacional de pedidos B2B para aulas de logística do ensino médio.",
   "private": true,
   "scripts": {
     "dev": "next dev",
